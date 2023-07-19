@@ -170,7 +170,7 @@ AUTH_USER_MODEL = 'api.User'
 django_heroku.settings(locals())
 
 # Cloudinaryの設定
-cloudinary.config(
+# cloudinary.config(
 #     cloud_name='jwanderson',
 #     api_key='958435128361973',
 #     api_secret='Yx0UUlMPr22ddmoBkjuSPwS7Z4I'
